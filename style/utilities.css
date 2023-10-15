@@ -1,0 +1,45 @@
+:root {
+    --primary-yellow: #FFF7D4;
+    --secondary-yellow: #FFD95A;
+    --tertiary-yello: #C07F00;
+    --text-primary: #4C3D3D;
+    --background-black: #000000;
+    --text-black: #333333;
+    --accent-color: #FF9800;
+}
+
+.text-primary-color {
+    color: var(--text-black);
+}
+
+.bg-body-yellow {
+    background-color: var(--secondary-yellow);
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-poppins-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.font-poppins-medium {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.font-crimson {
+    font-family: 'Crimson Text', serif
+}
+
+.font-crimson-bold {
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+}
+
+.font-crimson-medium {
+    font-family: 'Crimson Text', serif;
+    font-weight: 500;
+}

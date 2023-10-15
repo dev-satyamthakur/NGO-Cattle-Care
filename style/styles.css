@@ -1,16 +1,14 @@
-.bg-body-yellow {
-    background-color: rgb(255, 255, 183);
+/* Hiding the scrollbar */
+body::-webkit-scrollbar{
+    display: none;
 }
 
-.font-pop {
-    font-family: 'Poppins', sans-serif;
+.carousel-slide-item {
+    height: 680px;
 }
 
-.font-crimson {
-    font-family: 'Crimson Text', serif
-}
-
-.font-crimson-bold {
-    font-family: 'Crimson Text', serif;
-    font-weight: 700;
+.carousel-slide-image {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
 }
