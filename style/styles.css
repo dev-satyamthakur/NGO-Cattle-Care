@@ -1,0 +1,16 @@
+.bg-body-yellow {
+    background-color: rgb(255, 255, 183);
+}
+
+.font-pop {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-crimson {
+    font-family: 'Crimson Text', serif
+}
+
+.font-crimson-bold {
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+}
