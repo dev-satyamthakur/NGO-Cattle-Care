@@ -1,11 +1,15 @@
 :root {
     --primary-yellow: #FFF7D4;
     --secondary-yellow: #FFD95A;
-    --tertiary-yello: #C07F00;
+    --tertiary-yellow: #C07F00;
     --text-primary: #4C3D3D;
     --background-black: #000000;
     --text-black: #333333;
     --accent-color: #FF9800;
+}
+
+.text-tertiary-color {
+    color: var(--tertiary-yellow);
 }
 
 .text-primary-color {
