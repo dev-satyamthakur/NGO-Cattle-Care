@@ -1,3 +1,13 @@
+:root {
+    --primary-yellow: #FFF7D4;
+    --secondary-yellow: #FFD95A;
+    --tertiary-yellow: #C07F00;
+    --text-primary: #4C3D3D;
+    --background-black: #000000;
+    --text-black: #333333;
+    --accent-color: #FF9800;
+}
+
 /* Hiding the scrollbar */
 body::-webkit-scrollbar{
     display: none;
@@ -51,4 +61,40 @@ body::-webkit-scrollbar{
 
 .issues-section {
     margin-top: 80px;
+}
+
+/* more-info-section styling */
+.more-info-section {
+    background-image: linear-gradient(rgba(22, 22, 22,  0.6), rgba(22, 22, 22, 0.8)), url("/cow-images/cows-eating-together.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 4rem 0;
+    overflow: hidden;
+}
+
+.more-info-section .img-section {
+    position: relative;
+}
+
+.more-info-section .img-section img {
+    padding: 12px;
+    width: 70%;
+}
+
+/* Card Hover */
+
+.card-box {
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.glass {
+    backdrop-filter: blur(3px);
+    background-color: rgba(225, 225, 225, 0.1);
+}
+
+.card-box:hover{
+    transform: scale(1.04);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }

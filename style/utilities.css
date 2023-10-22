@@ -12,6 +12,10 @@
     color: var(--tertiary-yellow);
 }
 
+.text-secondary-yellow {
+    color: var(--secondary-yellow);
+}
+
 .text-primary-color {
     color: var(--text-black);
 }
