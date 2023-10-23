@@ -65,7 +65,7 @@ body::-webkit-scrollbar{
 
 /* more-info-section styling */
 .more-info-section {
-    background-image: linear-gradient(rgba(22, 22, 22,  0.6), rgba(22, 22, 22, 0.8)), url("https://raw.githubusercontent.com/dev-satyamthakur/NGO-Cattle-Care/main/cow-images/cows-eating-together-min.jpeg");
+    background-image: linear-gradient(rgba(22, 22, 22,  0.6), rgba(22, 22, 22, 0.8)), url("https://res.cloudinary.com/dokk2d3sv/image/upload/f_auto/q_auto/v1698073833/cows-eating-together-min_vsn5qk.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
