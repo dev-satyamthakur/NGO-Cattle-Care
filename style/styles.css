@@ -9,9 +9,9 @@
 }
 
 /* Hiding the scrollbar */
-body::-webkit-scrollbar{
+/* body::-webkit-scrollbar{
     display: none;
-}
+} */
 
 .carousel-slide-item {
     height: 680px;
