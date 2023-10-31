@@ -42,6 +42,10 @@
     font-family: 'Crimson Text', serif;
 }
 
+.font-roboto-mono {
+    font-family: 'Roboto Mono', monospace;
+}
+
 .font-crimson-bold {
     font-family: 'Crimson Text', serif;
     font-weight: 700;
